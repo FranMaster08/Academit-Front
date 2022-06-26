@@ -13,3 +13,18 @@ a {
 img {
     cursor: pointer;
 }
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.148);
+    background: #fff;
+    position: static;
+    top: 0;
+    z-index: 10;
+}
