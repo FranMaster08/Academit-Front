@@ -19,6 +19,8 @@ img {
     align-items: center;
 }
 
+/* header Page */
+
 nav {
     padding: 10px 2%;
     justify-content: space-between;
@@ -28,3 +30,45 @@ nav {
     top: 0;
     z-index: 10;
 }
+
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .user-icon {
+    width : 35px ;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.nav-left .menu-icon{
+    width : 22px;
+    margin-right: 25px;
+}
+
+.nav-left .logo{
+    width : 130px;
+    margin-right: 25px;
+}
+
+.nav-middle .mic-icon{
+    width : 16px;
+}
+
+.nav-middle .search-box {
+    border: 1px #ccc solid;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+    width : 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+
+/* sidebar */
