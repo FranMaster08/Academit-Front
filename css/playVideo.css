@@ -116,3 +116,14 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.vid-description{
+    padding-left: 55px;
+    margin: 15px 0;
+}
+
+.vid-description p {
+    font-size: 14px;
+    margin-bottom:  5px;
+    
+}
