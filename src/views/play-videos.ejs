@@ -17,28 +17,7 @@
 
 <body>
     <!-- menu -->
-    <nav class="flex-div">
-        <div class="nav-left flex-div">
-            <img src="./images/menu.png" alt="Logo" class="menu-icon">
-            <a href="./index.html">
-                <img src="./images/academit.png" alt="Logo" class="logo">
-            </a>
-
-        </div>
-        <div class="nav-middle flex-div">
-            <div class="search-box flex-div">
-                <input type="text" placeholder="Search...">
-                <img src="./images/search.png">
-            </div>
-            <img src="images/voice-search.png" class="mic-icon">
-        </div>
-        <div class="nav-right flex-div">
-            <img src="./images/upload.png" alt="Logo">
-            <img src="./images/more.png" alt="Logo">
-            <img src="./images/notification.png" alt="Logo">
-            <img src="./images/Jack.png" alt="Logo" class="user-icon">
-        </div>
-    </nav>
+    <%- include('partials/nav.ejs') %>
 
     <section class="container play-container">
         <div class="row">
